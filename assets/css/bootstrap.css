@@ -4930,7 +4930,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .nav {
-    padding-left: 0;
+    padding-left: 60%;
     margin-bottom: 0;
     list-style: none;
 }
@@ -5303,10 +5303,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand:hover,
 .navbar-brand:focus {
     text-decoration: none;
-}
-
-.navbar-brand > img {
-    display: block;
 }
 
 @media (min-width: 768px) {
