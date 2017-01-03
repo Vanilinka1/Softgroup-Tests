@@ -14,7 +14,6 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
-
 <body>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -64,8 +63,7 @@
     <footer>
         <div class="row">
             <div class="col-lg-12">
-                <p>Copyright &copy; Artur Lukashchuk 2016</p>
-                <p align="right"><a href="#top">Вгору</a></p>
+                <p>&copy; 2016-2017 <a href="mailto:agressortm@gmail.com">Artur Lukashchuk 2016<a/></p>
             </div>
         </div>
     </footer>

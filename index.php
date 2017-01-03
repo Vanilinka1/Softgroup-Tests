@@ -241,7 +241,7 @@
     <footer>
         <div class="row">
             <div class="col-lg-12">
-                <p>Copyright &copy; Artur Lukashchuk 2016</p>
+                <p>&copy; 2016-2017 <a href="mailto:agressortm@gmail.com">Artur Lukashchuk 2016<a/></p>
                 <p align="right"><a href="#top">Вгору</a></p>
             </div>
         </div>
