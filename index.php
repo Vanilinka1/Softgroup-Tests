@@ -38,7 +38,7 @@
                     <a href="/about.php">Автор</a>
                 </li>
                 <li>
-                    <a href="//softgroup.ua" target="_blank">Soft Group</a>
+                    <a href="/softgroup.ua" target="_blank">Soft Group</a>
                 </li>
             </ul>
         </div>
@@ -79,18 +79,10 @@
                                 building a review system tutorial</a>
                         </strong>over at maxoffsky.com!</p>
                     <p>
-                        <form action="index.php" method="post">
-
-                    <p>Имя: <input name="name" type="text"></p>
-
-                    <p>Фамилия: <input name="surname" type="text"></p>
-
-                    <p>E-mail: <input name="email" type="text"></p>
-
-                    <p>Сообщение: <br/><textarea name="message" cols="30" rows="5"></textarea></p>
-
-                    <p><input type='submit' value='Отправить'></p>
-
+                    <form action="index.php" method="post">
+                        Введите число:<br>
+                        <input type="text" value="Number"><br><br>
+                        <input type="submit" value="Submit">
                     </form></p>
                 </div>
                 <div class="ratings">
