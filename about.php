@@ -25,9 +25,7 @@
     <div class="container">
         <div class="navbar-header">
             <a href="index.php"><img src="assets/img/logo-1.png" alt="Softgroup logo" width="158" height="54"></a>
-            <!--  <a class="navbar-brand" href="/"></a>-->
         </div>
-        <!--   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
         <ul class="nav navbar-nav">
             <li><a href="/">Головна</a></li>
             <li><a href="/about.php">Автор</a></li>
@@ -49,39 +47,18 @@
             <div class="thumbnail">
                 <img class="img-responsive" src="http://placehold.it/800x300" alt="">
                 <div class="caption-full">
-                    <h4 class="pull-right">$24.99</h4>
                     <h4>Обо мне:</h4>
                     <p>See more snippets like these online store reviews at <a target="_blank"
                                                                                href="http://bootsnipp.com">Bootsnipp -
                             http://bootsnipp.com</a>.</p>
-                    <p>Want to make these reviews work? Check out
-                        <strong><a
+                    <p>Want to make these reviews work? Check out <strong><a
                                 href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this
                                 building a review system tutorial</a>
                         </strong>over at maxoffsky.com!</p>
-                    <p>
-                        <form action="/index.php" method="post">
-
-                    <p>Имя: <input name="name" type="text"></p>
-
-                    <p>Фамилия: <input name="surname" type="text"></p>
-
-                    <p>E-mail: <input name="email" type="text"></p>
-
-                    <p>Сообщение: <br/><textarea name="message" cols="30" rows="5"></textarea></p>
-
-                    <p><input type='submit' value='Отправить'></p>
-
-                    </form></p>
                 </div>
-
-
             </div>
-
         </div>
-
     </div>
-
 </div>
 <!-- /.container -->
 
@@ -92,6 +69,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <p>Copyright &copy; Artur Lukashchuk 2016</p>
+                <p align="right"><a href="#top">Вгору</a></p>
             </div>
         </div>
     </footer>

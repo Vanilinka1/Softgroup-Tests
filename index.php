@@ -41,12 +41,12 @@
         <div class="col-md-3">
             <div class="col-md-left-sidebar">
                 <div class="list-group">
-                    <a href="#test_one" class="list-group-item active">Рішення завдання №1</a>
-                    <a href="#test_two" class="list-group-item">Рішення завдання №2</a>
-                    <a href="#test_three" class="list-group-item">Рішення завдання №3</a>
-                    <a href="#test_four" class="list-group-item">Рішення завдання №4</a>
-                    <a href="#test_five" class="list-group-item">Рішення завдання №5</a>
-                    <a href="#test_six" class="list-group-item">Рішення завдання №6</a>
+                    <a href="/tasks.php#test_one" class="list-group-item active">Рішення завдання №1</a>
+                    <a href="/tasks.php#test_two" class="list-group-item">Рішення завдання №2</a>
+                    <a href="/tasks.php#test_three" class="list-group-item">Рішення завдання №3</a>
+                    <a href="/tasks.php#test_four" class="list-group-item">Рішення завдання №4</a>
+                    <a href="/tasks.php#test_five" class="list-group-item">Рішення завдання №5</a>
+                    <a href="/tasks.php#test_six" class="list-group-item">Рішення завдання №6</a>
                 </div>
             </div>
         </div>
