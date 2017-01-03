@@ -10,7 +10,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/site.css" rel="stylesheet">
 </head>
 
 <body>
