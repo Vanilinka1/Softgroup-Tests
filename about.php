@@ -23,25 +23,17 @@
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <img src="assets/img/logo-1.png" alt="Softgroup logo" width="158" height="54">
-            <a class="navbar-brand" href="/"></a>
+            <a href="index.php"><img src="assets/img/logo-1.png" alt="Softgroup logo" width="158" height="54"></a>
+            <!--  <a class="navbar-brand" href="/"></a>-->
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="/">Главная</a>
-                </li>
-                <li>
-                    <a href="/about.php">Автор</a>
-                </li>
-                <li>
-                    <a href="//softgroup.ua" target="_blank">Soft Group</a>
-                </li>
-            </ul>
-        </div>
+        <!--   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+        <ul class="nav navbar-nav">
+            <li><a href="/">Головна</a></li>
+            <li><a href="/about.php">Автор</a></li>
+            <li><a href="/softgroup.ua" target="_blank">Soft Group</a></li>
+        </ul>
+        <!-- </div>-->
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
@@ -109,6 +101,6 @@
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
 </body>
 </html>
