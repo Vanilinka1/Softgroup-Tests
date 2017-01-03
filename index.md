@@ -1,64 +1,122 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+---
+layout: default
+---
 
-</head>
-<body>
-<div id="header">
-    <nav>
-        <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-        {% if site.show_downloads %}
-        <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
-        <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
-        <li class="title">DOWNLOADS</li>
-        {% endif %}
-    </nav>
-</div><!-- end header -->
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-<div class="wrapper">
+[Link to another page](another-page).
 
-    <section>
-        <div id="title">
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-            <p>{{ site.description | default: site.github.project_tagline }}</p>
-            <hr>
-            <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{
-                site.github.owner_name }}</a></span>
-            <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a
-                    href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+There should be whitespace between paragraphs.
 
-        {{ content }}
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-    </section>
+# [](#header-1)Header 1
 
-</div>
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-{% if site.google_analytics %}
-<script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-    try {
-        var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
-        pageTracker._trackPageview();
-    } catch (err) {
-    }
-</script>
-{% endif %}
-</body>
-</html>
+## [](#header-2)Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+### [](#header-3)Header 3
+
+```php
+// PHP code with syntax highlighting.
+function perfectNumber{
+echo "perfect number";
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### [](#header-4)Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### [](#header-5)Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### [](#header-6)Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
