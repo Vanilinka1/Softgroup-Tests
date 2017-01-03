@@ -40,21 +40,22 @@
     <div class="row">
         <div class="col-md-3">
             <div class="col-md-left-sidebar">
-            <div class="list-group">
-                <a href="/tasks.php#test_one" class="list-group-item active">Рішення завдання №1</a>
-                <a href="/tasks.php#test_two" class="list-group-item">Рішення завдання №2</a>
-                <a href="/tasks.php#test_three" class="list-group-item">Рішення завдання №3</a>
-                <a href="/tasks.php#test_four" class="list-group-item">Рішення завдання №4</a>
-                <a href="/tasks.php#test_five" class="list-group-item">Рішення завдання №5</a>
-                <a href="/tasks.php#test_six" class="list-group-item">Рішення завдання №6</a>
+                <div class="list-group">
+                    <a href="#test_one" class="list-group-item active">Рішення завдання №1</a>
+                    <a href="#test_two" class="list-group-item">Рішення завдання №2</a>
+                    <a href="#test_three" class="list-group-item">Рішення завдання №3</a>
+                    <a href="#test_four" class="list-group-item">Рішення завдання №4</a>
+                    <a href="#test_five" class="list-group-item">Рішення завдання №5</a>
+                    <a href="#test_six" class="list-group-item">Рішення завдання №6</a>
+                </div>
             </div>
-        </div>
         </div>
         <div class="col-md-9">
 
             <div class="thumbnail">
-                <div class="caption-full">
-                    <h2>Завдання №1</h2>
+                <div id="test_one">
+                    <div class="caption-full">
+                        <h2>Завдання №1</h2>
                     <span class="task"><p>У форму вводиться число <code>N</code>. Знайти всі досконалі числа до
                             <code>N</code>.
                             Досконале число - це таке число, що дорівнює сумі всіх своїх дільників,
@@ -63,28 +64,34 @@
                             самого ділиться на числа <code>1</code>, <code>2</code> і <code>3</code>, які в сумі дають
                             <code>6</code>.</p>
                     </span>
+                    </div>
                 </div>
                 <hr class="hr">
                 <br><br>
-                <div class="caption-full">
-                    <h2>Завдання №2</h2>
+                <div id="test_two">
+                    <div class="caption-full">
+                        <h2>Завдання №2</h2>
                     <span class="task"><p>У форму вводиться текст, слова в якому розділені пробілами і
                             розділовими знаками. Вилучити з цього тексту всі слова найбільшої
                             довжини. (Слів найбільшої довжини може бути декілька).</p>
                     </span>
+                    </div>
                 </div>
                 <hr class="hr">
                 <br><br>
-                <div class="caption-full">
-                    <h2>Завдання №3</h2>
+                <div id="test_three">
+                    <div class="caption-full">
+                        <h2>Завдання №3</h2>
                     <span class="task"><p>Вводяться <code>N</code> натуральних чисел більше <code>2</code>.
                             Підрахувати, скільки серед них простих чисел.</p>
                     </span>
+                    </div>
                 </div>
                 <hr class="hr">
                 <br><br>
-                <div class="caption-full">
-                    <h2>Завдання №4</h2>
+                <div id="test_four">
+                    <div class="caption-full">
+                        <h2>Завдання №4</h2>
                     <span class="task"><p>
                             Політичне життя однієї країни дуже жваве.
                             У країні діє <code>K</code> політичних партій, кожна з яких регулярно оголошує національний
@@ -118,50 +125,55 @@
                             Таким чином, загальнонаціональні страйки пройдуть в дні <code>2, 3, 5, 8, 9, 11, 17,
                                 18.</code>
                         </p></span>
+                    </div>
                 </div>
                 <hr class="hr">
                 <br><br>
-                <div class="caption-full">
-                    <h2>Завдання №5</h2>
+                <div id="test_five">
+                    <div class="caption-full">
+                        <h2>Завдання №5</h2>
                     <span class="task"><p>Задано текст. Словом вважається послідовність непробільних символів,
                             які йдуть підряд. Слова розділені одним або більшим числом пробілів або
                             символами кінця рядка.
                             Для кожного слова з цього тексту підрахуйте, скільки разів воно
                             зустрічалося в цьому тексті раніше. Використайте словники.</p>
                     </span>
-                    <span class="demo">Приклад:</span>
-                    <table class="table table-bordered">
-                        <thead>
-                        <tr>
-                            <th>Ввід</th>
-                            <th>Вивід</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>one two one two three</td>
-                            <td>0 0 1 1 0</td>
-                        </tr>
-                        <tr>
-                            <td>She sells sea shells on the sea
-                                shore;
-                                The shells that she sells are sea
-                                shells I'm sure.
-                                So if she sells sea shells on the
-                                sea shore,
-                                I'm sure that the shells are sea
-                                shore shells.
-                            </td>
-                            <td>0 0 0 0 0 0 1 0 0 1 0 0 1 0 2 2 0 0 0 0 1 2 3 3
-                                1 1 4 0 1 0 1 2 4 1 5 0 0
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                        <span class="demo">Приклад:</span>
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>Ввід</th>
+                                <th>Вивід</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>one two one two three</td>
+                                <td>0 0 1 1 0</td>
+                            </tr>
+                            <tr>
+                                <td>She sells sea shells on the sea
+                                    shore;
+                                    The shells that she sells are sea
+                                    shells I'm sure.
+                                    So if she sells sea shells on the
+                                    sea shore,
+                                    I'm sure that the shells are sea
+                                    shore shells.
+                                </td>
+                                <td>0 0 0 0 0 0 1 0 0 1 0 0 1 0 2 2 0 0 0 0 1 2 3 3
+                                    1 1 4 0 1 0 1 2 4 1 5 0 0
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <hr class="hr">
-                <div class="caption-full">
-                    <h2>Завдання №6</h2>
+                <br><br>
+                <div id="test_six">
+                    <div class="caption-full">
+                        <h2>Завдання №6</h2>
                     <span class="task"><p>Змагання з гри «Тетріс-онлайн» проводяться за такими правилами:
                             Кожен учасник реєструється на сайті гри під певним ігровим ім'ям. Імена
                             учасників не повторюються.
@@ -182,39 +194,40 @@
                             Напишіть програму, яка за даними протоколу визначає переможця і
                             призерів. Гарантується, що в чемпіонаті бере участь не менше трьох гравців.</p>
                     </span><br><br>
-                    <span class="demo">Приклад:</span>
-                    <table class="table table-bordered">
-                        <thead>
-                        <tr>
-                            <th>Ввід</th>
-                            <th>Вивід</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>197128</td>
-                            <td>1 місце. Qwerty (197128)</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                95715 qwerty
-                                95715 Alex
-                                83647 M
-                                197128 qwerty
-                                95715 Jack
-                                93289 Alex
-                                95715 Alex
-                                95715 M
-                                69485 Jack
+                        <span class="demo">Приклад:</span>
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>Ввід</th>
+                                <th>Вивід</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>197128</td>
+                                <td>1 місце. Qwerty (197128)</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    95715 qwerty
+                                    95715 Alex
+                                    83647 M
+                                    197128 qwerty
+                                    95715 Jack
+                                    93289 Alex
+                                    95715 Alex
+                                    95715 M
+                                    69485 Jack
 
-                            </td>
-                            <td>
-                                2 місце. Alex (95715)<br>
-                                3 місце. Jack (95715)
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                                </td>
+                                <td>
+                                    2 місце. Alex (95715)<br>
+                                    3 місце. Jack (95715)
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <hr class="hr">
             </div>
@@ -229,6 +242,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <p>Copyright &copy; Artur Lukashchuk 2016</p>
+                <p align="right"><a href="#top">Вгору</a></p>
             </div>
         </div>
     </footer>

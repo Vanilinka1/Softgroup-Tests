@@ -24,11 +24,11 @@
             <!--  <a class="navbar-brand" href="/"></a>-->
         </div>
         <!--   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-            <ul class="nav navbar-nav">
-                <li><a href="/">Головна</a></li>
-                <li><a href="/about.php">Автор</a></li>
-                <li><a href="/softgroup.ua" target="_blank">Soft Group</a></li>
-            </ul>
+        <ul class="nav navbar-nav">
+            <li><a href="/">Головна</a></li>
+            <li><a href="/about.php">Автор</a></li>
+            <li><a href="/softgroup.ua" target="_blank">Soft Group</a></li>
+        </ul>
         <!-- </div>-->
         <!-- /.navbar-collapse -->
     </div>
@@ -81,7 +81,7 @@
                         ?>
                         </p>
                     </span>
-                </div>
+                    </div>
                 </div>
                 <hr class="hr">
                 <br><br>
@@ -338,7 +338,6 @@
     </footer>
 </div>
 <!-- /.container -->
-<a href="#one" name="#one">TEST ONE</a>
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
