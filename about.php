@@ -50,17 +50,7 @@
 <!-- Page Content -->
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
-            <p class="lead">Тестовые задачи:</p>
-            <div class="list-group">
-                <a href="#test_one" class="list-group-item active">Задача №1</a>
-                <a href="#test_two" class="list-group-item">Задача №2</a>
-                <a href="#test_three" class="list-group-item">Задача №3</a>
-                <a href="#test_four" class="list-group-item">Задача №4</a>
-                <a href="#test_five" class="list-group-item">Задача №5</a>
-                <a href="#test_six" class="list-group-item">Задача №6</a>
-            </div>
-        </div>
+
 
         <div class="col-md-9">
 
@@ -78,7 +68,7 @@
                                 building a review system tutorial</a>
                         </strong>over at maxoffsky.com!</p>
                     <p>
-                        <form action="app/check.php" method="post">
+                        <form action="/index.php" method="post">
 
                     <p>Имя: <input name="name" type="text"></p>
 
