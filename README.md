@@ -1,3 +1,3 @@
 ## [Softgroup](http://softgroup.ua)
 #Junior PHP developer courses entrance test
-TEST
+Applicant [Artur Lukashchuk](mailto:agressortm@gmail.com)
