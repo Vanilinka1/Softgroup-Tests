@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="19521cd0-562a-4fcb-a487-03a79391f2a6" name="softgroup.pp" url="http://softgroup.pp">
+        <fileTransfer host="localhost" port="21" rootFolder="/softgroup.pp" password="dfe7dfd3dfeedfcbdfd8dfc1df99df98df92df9ddf92dfe2df9b" username="MyDark">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
